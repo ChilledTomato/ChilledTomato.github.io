@@ -30,8 +30,8 @@ h1 {
     display: none;
 }
 .link-button .img-rounded {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: none;
     border-radius: 50%;
     -webkit-transition: transform 0.5s;
@@ -45,11 +45,11 @@ h1 {
 }
 .search-bar {
     text-align: center;
-    height: 100px;
+    height: 50%;
 }
 .icons {
     text-align: center;
-    height: 100px;
+    height: 10%;
 }
 .icon-row
 {
@@ -63,6 +63,4 @@ a, a:active, a:focus {
 }
 .weatherwidget-io{
     display: inline-block;
-
-    
 }
