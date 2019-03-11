@@ -1,7 +1,6 @@
 body
 {
     background-image: url(../images/bg.jpg);
-    height: 100%;
 }
 h1 {
     color: black;
@@ -45,11 +44,11 @@ h1 {
 }
 .search-bar {
     text-align: center;
-    height: 50%;
+    height: 10vw;
 }
 .icons {
     text-align: center;
-    height: 10%;
+    height: 10vw;
 }
 .icon-row
 {
