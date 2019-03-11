@@ -1,0 +1,66 @@
+body
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#search-bar {
+    background-color: darkgray;
+    width: 150px;
+    height: 10%;
+    border: solid;
+    border-radius: 10px;
+    border-style: none;
+    opacity: 0.2;
+    padding: 20px;
+    display: inline-block;
+    -webkit-transition: width 0.5s, opacity 0.5s;
+}
+#search-bar:hover, #search-bar:active, #search-bar:focus {
+    width: 300px;
+    opacity: 0.8;
+}
+#submit-button
+{
+    display: none;
+}
+.link-button .img-rounded {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    -webkit-transition: transform 0.5s;
+}
+.link-button .img-rounded:hover{
+    transform: scale(1.2);
+}
+.link-button .img-rounded:active {
+    -webkit-transition: transform 0.2s;
+    transform: scale(0.8);
+}
+.search-bar {
+    text-align: center;
+}
+.icons {
+    text-align: center;
+}
+.icon-row
+{
+    display: inline-block;
+}
+a, a:active, a:focus {
+    outline: none;
+}
+.weather {
+    text-align: center;
+}
+.weatherwidget-io{
+    display: inline-block;
+
+    
+}
