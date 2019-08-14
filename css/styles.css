@@ -1,32 +1,13 @@
 body
 {
     background-image: url(../images/bg.jpg);
+    background-size:cover;
 }
 h1 {
     color: black;
     font-size: 250%;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-}
-#search-bar {
-    background-color: darkgray;
-    width: 150px;
-    height: 10%;
-    border: solid;
-    border-radius: 10px;
-    border-style: none;
-    opacity: 0.2;
-    padding: 20px;
-    display: inline-block;
-    -webkit-transition: width 0.5s, opacity 0.5s;
-}
-#search-bar:hover, #search-bar:active, #search-bar:focus {
-    width: 300px;
-    opacity: 0.8;
-}
-#submit-button
-{
-    display: none;
 }
 .link-button .img-rounded {
     width: 90px;
@@ -41,10 +22,6 @@ h1 {
 .link-button .img-rounded:active {
     -webkit-transition: transform 0.2s;
     transform: scale(0.8);
-}
-.search-bar {
-    text-align: center;
-    height: 10vw;
 }
 .icons {
     text-align: center;
