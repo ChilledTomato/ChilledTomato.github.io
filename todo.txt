@@ -1,4 +1,0 @@
-- Ta bort sökfält
-- Lägg till Photos, ta bort bulbapedia
-- google docs, ta bort väder
-- Färga ikoner

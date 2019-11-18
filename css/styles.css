@@ -1,31 +1,34 @@
 body
 {
-    background-image: url(../images/bg.jpg);
+    /*background-image: url(../images/bg.jpg);
     background-size: auto;
-}
-h1 {
-    color: black;
-    font-size: 250%;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-}
+    */
+    background-image: linear-gradient(#6793bf, #a35858); /* #68a4b0, #36506b */
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}   
 .link-button .img-rounded {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     border: none;
     border-radius: 50%;
-    -webkit-transition: transform 0.5s;
+    -webkit-transition: transform 0.2s;
 }
 .link-button .img-rounded:hover{
-    transform: scale(1.2);
+    -webkit-transition: transform 0.2s;
+    transform: scale(1.05);
 }
 .link-button .img-rounded:active {
     -webkit-transition: transform 0.2s;
-    transform: scale(0.8);
+    transform: scale(1.0);
 }
 .icons {
-    text-align: center;
-    height: 10vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .icon-row
 {
@@ -33,10 +36,4 @@ h1 {
 }
 a, a:active, a:focus {
     outline: none;
-}
-.weather {
-    text-align: center;
-}
-.weatherwidget-io{
-    display: inline-block;
 }
